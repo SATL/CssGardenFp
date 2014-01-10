@@ -1,0 +1,161 @@
+﻿/*
+fichero: css_garden.css
+fecha: 8/01/2014
+autor: Eslem Alzate
+proposito: practica con css al estilo de ZEN GARDEN
+*/
+	/*Fuenter*/
+	@font-face
+	{
+	font-family: Magna;
+	src: url(Font/Magna.ttf);
+	}
+	
+	@font-face
+	{
+	font-family: adec;
+	src: url(Font/adec.otf);
+	}
+	
+	@font-face
+	{
+	font-family: Relay;
+	src: url(Font/Raleway.ttf);
+	}
+
+	body{
+		
+	}
+	
+	div.encabezado{
+		text-align:center;
+		font-size:4em;
+		margin-top:-20;
+		font-family:adec;
+	}
+	
+	
+	div.proyecto{
+		width:80%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	
+	div.proyecto h1{
+		text-align:center;
+		font-family:Magna;
+		font-size:4em;
+	}
+	
+	div.proyecto p{
+		text-align:center;
+		font-family:Relay;
+		font-size:2em;
+	}
+	
+	div.proyecto:hover{
+	
+		}
+			
+	div.lista{
+		background-color:black;
+		color:white;
+		margin-left:-10px;
+		text-align:center;
+		word-break: break-all;
+		height:auto;
+		width:20%;	
+		padding:1%;
+		transition:all 1s;
+		-webkit-transition:all 1s;
+		border:1px solid grey;
+		border-radius:0px 25px 25px 0px;
+		opacity: 0.8;
+		z-index:5;
+	}
+	
+	div.lista h1{
+		margin:0px;
+		font-family:adec;
+	}
+		
+	div.lista li{
+		display:none;
+		transition:all 1s;
+		-webkit-transition:all 1s;
+		}
+		
+	div.lista:hover{
+		width:80%;
+		height:auto;
+		opacity:1;
+		}
+	
+	div.lista:hover li{
+		display:inline;
+	}
+	
+	div.lista a:link, a:visited {
+		color:#e5e5e5;
+		text-align:center;
+		padding:4px;
+		text-decoration:none;
+		text-transform:none;
+		font-family:Relay;
+	}
+	
+	div.lista a:hover{
+		color:white;
+		font-size:1.5em;
+		font-weight:bold;
+	}
+		
+	div.pie{
+		position:fixed;
+		bottom:0.2%;
+		right:0;
+		z-index:1;
+	}
+	
+	div.pie img{
+		opacity:0.5;
+		border:1px solid red;
+		border-radius:5px;
+	}
+	
+	div.pie img:hover{
+		opacity:1;
+	}
+	
+	
+			
+	
+	/*Animaciones*/
+	@keyframes lista
+	{
+	0%  {
+		width:20%;
+		}
+	100% {
+		width:80%;
+		}
+	}
+
+	@-webkit-keyframes lista /* Safari and Chrome */
+	{
+	0%  {
+		width:20%;
+		}
+	100% {
+		width:80%;
+		}
+	}
+	
+	
+	
+	
+	
+
+
+
+
