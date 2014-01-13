@@ -29,14 +29,14 @@ proposito: practica con css al estilo de ZEN GARDEN
 	
 	div.encabezado{
 		text-align:center;
-		font-size:4em;
+		font-size:3em;
 		margin-top:-20;
 		font-family:adec;
 	}
 	
 	
 	div.proyecto{
-		width:80%;
+		width:90%;
 		margin-right:auto;
 		margin-left:auto;
 	}
@@ -72,6 +72,7 @@ proposito: practica con css al estilo de ZEN GARDEN
 		border-radius:0px 25px 25px 0px;
 		opacity: 0.8;
 		z-index:5;
+		margin-bottom:5%;
 	}
 	
 	div.lista h1{
