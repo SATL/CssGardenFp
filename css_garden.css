@@ -24,7 +24,7 @@ proposito: practica con css al estilo de ZEN GARDEN
 	}
 
 	body{
-		background: -webkit-radial-gradient(white, gray); /* For Safari */
+		/*background: -webkit-radial-gradient(white, gray); /* For Safari */
 		background: -o-radial-gradient(white, gray); /* For Opera 11.1 to 12.0 */
 		background: -moz-radial-gradient(white, gray); /* For Firefox 3.6 to 15 */
 		background: radial-gradient(white, gray); /* Standard syntax */
