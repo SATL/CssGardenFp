@@ -77,6 +77,7 @@ proposito: practica con css al estilo de ZEN GARDEN
 	div.lista h1{
 		margin:0px;
 		font-family:adec;
+		word-break:break-all;
 	}
 		
 	div.lista li{
