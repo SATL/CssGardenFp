@@ -24,10 +24,10 @@ proposito: practica con css al estilo de ZEN GARDEN
 	}
 
 	body{
-		/*background: -webkit-radial-gradient(white, gray); /* For Safari */
-		background: -o-radial-gradient(white, #ededed); /* For Opera 11.1 to 12.0 */
-		background: -moz-radial-gradient(white, #ededed); /* For Firefox 3.6 to 15 */
-		background: radial-gradient(white, #ededed); /* Standard syntax */
+		background: -webkit-radial-gradient(white, silver); /* For Safari */
+		background: -o-radial-gradient(white, silver); /* For Opera 11.1 to 12.0 */
+		background: -moz-radial-gradient(white, silver); /* For Firefox 3.6 to 15 */
+		background: radial-gradient(white, silver); /* Standard syntax */
 		
 	}
 	
@@ -56,17 +56,12 @@ proposito: practica con css al estilo de ZEN GARDEN
 		font-family:Relay;
 		font-size:2em;
 	}
-	
-	div.proyecto:hover{
-	
-		}
-			
+				
 	div.lista{
 		background-color:black;
 		color:white;
 		margin-left:-10px;
 		text-align:center;
-		word-break: break-all;
 		height:auto;
 		width:20%;	
 		padding:1%;
@@ -100,14 +95,16 @@ proposito: practica con css al estilo de ZEN GARDEN
 		display:inline;
 	}
 	
-	div.lista a:link, a:visited {
+	div.lista a:link, div.lista a:visited {
 		color:#e5e5e5;
 		text-align:center;
 		padding:4px;
 		text-decoration:none;
 		text-transform:none;
 		font-family:Relay;
-	}
+		transition:all 0.2s;
+		-webkit-transition:all 0.2s;
+		}
 	
 	div.lista a:hover{
 		color:white;
@@ -132,29 +129,6 @@ proposito: practica con css al estilo de ZEN GARDEN
 		opacity:1;
 	}
 	
-	
-			
-	
-	/*Animaciones*/
-	@keyframes lista
-	{
-	0%  {
-		width:20%;
-		}
-	100% {
-		width:80%;
-		}
-	}
-
-	@-webkit-keyframes lista /* Safari and Chrome */
-	{
-	0%  {
-		width:20%;
-		}
-	100% {
-		width:80%;
-		}
-	}
 	
 	
 	
